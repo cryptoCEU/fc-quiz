@@ -53,6 +53,7 @@ function Screen(props: Props) {
     );
   }
 
+  
   if (props.state.type === "result") {
     return (
       <div tw="relative bg-black w-full h-full flex flex-col items-center justify-center">
