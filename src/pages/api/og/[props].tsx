@@ -43,7 +43,7 @@ function Screen(props: Props) {
     return (
       <div tw="relative bg-black w-full h-full flex flex-col items-center justify-center">
         <img
-          src="https://raw.githubusercontent.com/cryptoCEU/test/main/bg.png"
+          src="https://ipfs.decentralized-content.com/ipfs/QmU5xXfFM5JKwPRnDhPK9BxiiE5N1oJHJfJqxcwcsxBJgw"
           tw="absolute w-full h-full"
         />
         <div style={{ fontSize: 100, color: "white" }}>
@@ -57,7 +57,7 @@ function Screen(props: Props) {
     return (
       <div tw="relative bg-black w-full h-full flex flex-col items-center justify-center">
         <img
-          src="https://raw.githubusercontent.com/cryptoCEU/test/main/bg.png"
+          src="https://ipfs.decentralized-content.com/ipfs/QmU5xXfFM5JKwPRnDhPK9BxiiE5N1oJHJfJqxcwcsxBJgw"
           tw="absolute w-full h-full"
         />
         <div style={{ fontSize: 100, color: "white" }}>
@@ -86,7 +86,7 @@ function Screen(props: Props) {
   return (
     <div tw="relative bg-black w-full h-full flex flex-col items-center justify-center">
       {<img
-        src="https://raw.githubusercontent.com/cryptoCEU/test/main/bg.png"
+        src="https://ipfs.decentralized-content.com/ipfs/QmU5xXfFM5JKwPRnDhPK9BxiiE5N1oJHJfJqxcwcsxBJgw"
         tw="absolute w-full h-full"
       /> }
       <WWTBAMUI
