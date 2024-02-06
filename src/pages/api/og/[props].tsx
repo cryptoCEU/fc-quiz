@@ -43,7 +43,7 @@ function Screen(props: Props) {
     return (
       <div tw="relative bg-black w-full h-full flex flex-col items-center justify-center">
         <img
-          src="https://ucarecdn.com/086039b7-788c-45fe-8af3-9bec5d239a20/"
+          src="https://raw.githubusercontent.com/cryptoCEU/test/main/bg.png"
           tw="absolute w-full h-full"
         />
         <div style={{ fontSize: 100, color: "white" }}>
@@ -57,7 +57,7 @@ function Screen(props: Props) {
     return (
       <div tw="relative bg-black w-full h-full flex flex-col items-center justify-center">
         <img
-          src="https://ucarecdn.com/086039b7-788c-45fe-8af3-9bec5d239a20/"
+          src="https://raw.githubusercontent.com/cryptoCEU/test/main/bg.png"
           tw="absolute w-full h-full"
         />
         <div style={{ fontSize: 100, color: "white" }}>
@@ -67,8 +67,8 @@ function Screen(props: Props) {
           tw="flex flex-col items-center text-center"
           style={{ fontSize: 50, color: "white", marginTop: 100 }}
         >
-          <span>Create your own qiuz at</span>
-          <span style={{ color: "#FFBF00" }}>https://heyportals.vercel.app/</span>
+          <span>Join the CryptoPlaza channel</span>
+          <span style={{ color: "#FFBF00" }}>https://warpcast.com/~/channel/cryptoplaza</span>
         </div>
       </div>
     );
@@ -85,10 +85,10 @@ function Screen(props: Props) {
   const { selection } = props.state;
   return (
     <div tw="relative bg-black w-full h-full flex flex-col items-center justify-center">
-      {/* <img
-        src="https://ucarecdn.com/086039b7-788c-45fe-8af3-9bec5d239a20/"
+      {<img
+        src="https://raw.githubusercontent.com/cryptoCEU/test/main/bg.png"
         tw="absolute w-full h-full"
-      /> */}
+      /> }
       <WWTBAMUI
         green={selection && selection.correct}
         red={selection && selection.selected}
