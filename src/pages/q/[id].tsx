@@ -23,7 +23,7 @@ export default function UI({
       <Head>
         <meta property="og:title" content="Frame" />
         <meta property="og:image" content={image} />
-        <meta property="fc:frame" content="vLatest" />
+        <meta property="fc:frame" content="vNext" />
         <meta property="fc:frame:image" content={image} />
         {buttons.map((button, index) => (
           <meta
